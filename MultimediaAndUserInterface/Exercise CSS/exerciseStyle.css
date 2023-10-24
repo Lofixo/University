@@ -1,0 +1,13 @@
+header h1{
+    background: #efefef;
+    color: #001689;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    background: #efefef;
+    background-size: 5000px 300px;
+    color: #001689;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}

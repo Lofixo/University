@@ -1,0 +1,407 @@
+.page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.page .curriculum-vitae {
+  position: relative;
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1080px;
+  height: 1400px;
+  outline-style: solid;
+  outline-color: #00A3D7;
+  outline-width: 5px;
+}
+
+.page .header {
+  position: absolute;
+  width: 1009px;
+  height: 300px;
+  top: 75px;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.page .header-background {
+  position: absolute;
+  width: 855px;
+  height: 300px;
+  background-color: #4bd3ff;
+}
+
+.page .name {
+  position: absolute;
+  top: 33px;
+  left: 34px;
+  font-family: "Secular One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 72px;
+}
+
+.page .ocupation {
+  position: absolute;
+  top: 126px;
+  left: 34px;
+  font-family: "IBM Plex Mono", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.page .logo-background {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-image: url(./img/circleBackground.svg);
+  background-size: 100% 100%;
+}
+
+.page .logo {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 13px;
+  left: 13px;
+  object-fit: cover;
+}
+
+.page .email-contact {
+  position: absolute;
+  width: 375px;
+  height: 75px;
+  top: 200px;
+  left: 34px;
+}
+
+.page .email {
+  position: absolute;
+  top: 25px;
+  left: 85px;
+  font-family: "IBM Plex Mono", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+}
+
+.page .phone-contact {
+  position: absolute;
+  width: 196px;
+  height: 75px;
+  top: 200px;
+  left: 429px;
+}
+
+.page .number {
+  position: absolute;
+  top: 25px;
+  left: 86px;
+  font-family: "IBM Plex Mono", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.page .profile-picture {
+  width: 302px;
+  height: 300px;
+  left: 705px;
+  position: absolute;
+}
+
+.page .pfp-background-1 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: #4bd3ff;
+  border-radius: 150px;
+}
+
+.page .pfp-background-2 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 25px;
+  left: 25px;
+  background-color: #ffffff;
+  border-radius: 125px;
+}
+
+.page .pfp-picture {
+  position: absolute;
+  top: 95px;
+  left: 80px;
+  font-family: "IBM Plex Mono", Helvetica;
+  font-weight: 700;
+  color: #00a3d7;
+  font-size: 80px;
+}
+
+.page .main-info {
+  position: absolute;
+  width: 530px;
+  height: 863px;
+  top: 450px;
+  left: 50px;
+}
+
+.page .title-background-1 {
+  position: absolute;
+  width: 530px;
+  height: 75px;
+  background-color: #4bd4ff;
+}
+
+.page .profile {
+  position: absolute;
+  width: 534px;
+  height: 359px;
+}
+
+.page .profile-title {
+  position: absolute;
+  width: 300px;
+  top: 13px;
+  left: 115px;
+  font-family: "Secular One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.page .profile-info {
+  font-family: "IBM Plex Mono", Helvetica;
+  position: absolute;
+  width: 530px;
+  top: 100px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.page .education {
+  position: absolute;
+  width: 534px;
+  height: 425px;
+  top: 438px;
+}
+
+.page .education-title {
+  position: absolute;
+  width: 500px;
+  top: 12px;
+  left: 15px;
+  font-family: "Secular One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.page .education-info {
+  font-family: "IBM Plex Mono", Helvetica;
+  position: absolute;
+  width: 530px;
+  top: 100px;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+}
+
+.page .side-info {
+  position: absolute;
+  width: 450px;
+  height: 1400px;
+  left: 630px;
+  background-color: #00A3D7;
+  background-size: 100% 100%;
+}
+
+.page .general-skills {
+  position: absolute;
+  width: 350px;
+  height: 357px;
+  top: 450px;
+  left: 50px;
+}
+
+.page .title-background-2 {
+  position: relative;
+  width: 350px;
+  height: 75px;
+  background-color: #4bd4ff;
+}
+
+.page .general-title {
+  position: absolute;
+  width: 300px;
+  top: 13px;
+  left: 25px;
+  font-family: "Secular One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.page .text {
+  font-size: 20px;
+  position: absolute;
+  font-family: "Secular One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.page .line {
+  top: 37px;
+  position: absolute;
+  width: 350px;
+  height: 5px;
+}
+
+.page .programming {
+  position: absolute;
+  width: 352px;
+  height: 48px;
+  top: 110px;
+}
+
+.page .level-1 {
+  left: 275px;
+  background-color: #ffffff;
+  border-radius: 7.5px;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 32px;
+}
+
+.page .teamwork {
+  position: absolute;
+  width: 352px;
+  height: 47px;
+  top: 210px;
+}
+
+.page .level-2 {
+  left: 213px;
+  background-color: #ffffff;
+  border-radius: 7.5px;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 32px;
+}
+
+.page .creativity {
+  position: absolute;
+  width: 352px;
+  height: 47px;
+  top: 310px;
+}
+
+.page .level-3 {
+  left: 310px;
+  background-color: #ffffff;
+  border-radius: 7.5px;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 32px;
+}
+
+.page .language-title {
+  width: 300px;
+  top: 12px;
+  left: 25px;
+  font-size: 40px;
+  text-align: center;
+  position: absolute;
+  font-family: "Secular One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.page .language-skills {
+  position: absolute;
+  width: 350px;
+  height: 414px;
+  top: 888px;
+  left: 50px;
+}
+
+.page .spanish {
+  position: absolute;
+  width: 352px;
+  height: 49px;
+  top: 112px;
+}
+
+.page .level-4 {
+  left: 303px;
+  background-color: #ffffff;
+  border-radius: 7.5px;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 32px;
+}
+
+.page .catalan {
+  position: absolute;
+  width: 352px;
+  height: 48px;
+  top: 198px;
+}
+
+.page .level-5 {
+  left: 275px;
+  background-color: #ffffff;
+  border-radius: 7.5px;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 32px;
+}
+
+.page .english {
+  position: absolute;
+  width: 352px;
+  height: 48px;
+  top: 282px;
+}
+
+.page .level-6 {
+  left: 220px;
+  background-color: #ffffff;
+  border-radius: 7.5px;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 32px;
+}
+
+.page .french {
+  position: absolute;
+  width: 352px;
+  height: 47px;
+  top: 368px;
+}
+
+.page .level-7 {
+  left: 240px;
+  background-color: #ffffff;
+  border-radius: 7.5px;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 32px;
+}
