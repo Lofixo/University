@@ -30,6 +30,7 @@ Both the header and titles are using the more light blueish color, while the sid
 
 On top of that we can see some parallelism being formed from the line dividing the main and side info sections, where we can see titles on both sides are on the same height and distance apart from one another.
 
+Lastly, I'd like to add that a few images have been set in place in the project (line, circle, mail and phone icon), therefore there will be a directory called "img" with them inside which the html uses in order to display them.
 
 Here's the link to the Figma project:
 https://www.figma.com/file/FexeduZe4SQEBozzDkZwT4/CV-Project?type=design&node-id=0%3A1&mode=design&t=pA5oJsaiAtFv8nlB-1
